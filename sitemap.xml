@@ -21,7 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/fralfaro/MADS-Workshops/TallerPandas/01_curso_interactivo_eng/</loc>
+         <lastmod>2024-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/fralfaro/MADS-Workshops/TallerPandas/02_taller/</loc>
+         <lastmod>2024-09-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/MADS-Workshops/TallerPandas/02_taller_eng/</loc>
          <lastmod>2024-09-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
