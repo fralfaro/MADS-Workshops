@@ -1,14 +1,14 @@
 # Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
 
 # Project information
-site_name: Home
-site_url: https://github.com/JSConfCL/techschool
+site_name: MADSc-Workshops
+site_url: https://github.com/fralfaro/MADS-Workshops
 site_author: Francisco Alfaro
 site_description:
 
 # Repository
-repo_name: JSConfCL/techschool
-repo_url: https://github.com/JSConfCL/techschool
+repo_name: fralfaro/MADS-Workshops
+repo_url: https://github.com/fralfaro/MADS-Workshops
 edit_uri: ''
 
 
@@ -37,8 +37,8 @@ extra_javascript:
 theme:
   name: material
   language: es
-  logo: images/logo_JSchile.png
-  favicon: images/logo_JSchile.png
+  logo: images/usm.png
+  favicon: images/usm.png
   features:
     - navigation.instant
     - navigation.top
@@ -86,8 +86,12 @@ plugins:
 # TOC
 nav:
     - Home: index.md
-    - Python para Excel Lovers:
-        - TallerPandas/01_curso_interactivo.ipynb
-        - TallerPandas/02_taller.ipynb
+    - WorkShop Nov 2024:
+        - Español:
+          - TallerPandas/01_curso_interactivo.ipynb
+          - TallerPandas/02_taller.ipynb
+        - English:
+          - TallerPandas/01_curso_interactivo.ipynb
+          - TallerPandas/02_taller.ipynb
 
 

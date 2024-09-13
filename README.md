@@ -1,16 +1,13 @@
-# Repositorio para TechSchool
+# MADSc Workshops
 
-[![example workflow](https://github.com/fralfaro/techschool/actions/workflows/documentation.yml/badge.svg)](https://github.com/fralfaro/techschool/actions)
-[![documentation](https://img.shields.io/badge/📒-Website-yellow)](https://fralfaro.github.io/techschool/)
+![example workflow](https://github.com/fralfaro/MADS-Workshops/actions/workflows/documentation.yml/badge.svg)
+<a href="https://fralfaro.github.io/MADS-Workshops/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📒 docs-link-yellow"></a>
 
-<img src="docs/images/cljs.jpg" alt="cljs" width="200">
+<img src="docs/images/mads-logo.png" alt="mads" width="300">
 
-¡Bienvenidos al repositorio de **TechSchool**!
 
-Este espacio ha sido creado con el objetivo de proporcionar a los estudiantes todos los materiales y archivos necesarios para nuestros talleres. Dentro de este repositorio, encontrarás las carpetas correspondientes a cada uno de los talleres que ofrecemos en nuestros eventos.
 
-**TechSchool** es la evolución de los eventos NodeSchool y es organizado por la comunidad JavaScript Chile. Nuestro primer evento se celebra el [Fecha del Evento, ej: 28 de octubre de 2023] y estamos emocionados de compartir conocimientos y experiencias con todos los participantes.
 
-Te invitamos a explorar las carpetas, descargar el material y prepararte para una experiencia educativa enriquecedora. ¡Nos vemos en TechSchool!
+Este espacio ha sido creado para proporcionar todos los materiales necesarios para los talleres organizados por el centro de Management Analytics and Data Science (MADSc). Aquí encontrarás las carpetas correspondientes a cada uno de nuestros talleres, diseñados para impulsar investigaciones en ciencia de datos aplicadas a la economía y los negocios.
 
-> **Nota:** Esta [versión](https://github.com/fralfaro/techschool) es una adaptación personal del repositorio oficial de [JSConfCL/techschool](https://github.com/JSConfCL/techschool).
+**MADSc** une a expertos académicos e industriales para abordar problemas del sector y ofrece soluciones prácticas mediante alianzas con empresas como Tinet. A través de este repositorio, te invitamos a explorar, descargar material y prepararte para una experiencia educativa enriquecedora. **¡Nos vemos en los Talleres del MADSc!**
