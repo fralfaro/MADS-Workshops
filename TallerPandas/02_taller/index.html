@@ -401,8 +401,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#testing-hypotheses" class="md-nav__link">
-    Testing hypotheses
+  <a href="#hipotesis" class="md-nav__link">
+    Hipótesis
   </a>
   
 </li>
@@ -584,8 +584,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#testing-hypotheses" class="md-nav__link">
-    Testing hypotheses
+  <a href="#hipotesis" class="md-nav__link">
+    Hipótesis
   </a>
   
 </li>
@@ -1657,18 +1657,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><a href="https://colab.research.google.com/github/fralfaro/techschool/blob/main/docs/TallerPandas/02_taller.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a href="https://colab.research.google.com/github/fralfaro/MADS-Workshops/blob/main/docs/TallerPandas/02_taller.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
 <h1 id="taller-practico">Taller Pr&#225;ctico<a class="anchor-link" href="#taller-practico">&#182;</a></h1>
 </div>
 </div>
@@ -1681,8 +1670,8 @@ Licensed under the Apache License, Version 2.0.
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="descripcion-del-proyecto">Descripci&#243;n del proyecto<a class="anchor-link" href="#descripcion-del-proyecto">&#182;</a></h2><h3 id="introduccion">Introducci&#243;n<a class="anchor-link" href="#introduccion">&#182;</a></h3><p><img src="https://raw.githubusercontent.com/fralfaro/techschool/main/docs/images/tan.jpg" width = "400" ></p>
-<p>Siempre que realizamos un análisis tenemos que formular hipótesis que luego podamos poner a prueba. A veces aceptamos estas hipótesis; otras, las rechazamos. Para tomar las decisiones correctas, una empresa debe ser capaz de entender si está haciendo las suposiciones correctas.</p>
-<p>En este proyecto, compararás las preferencias musicales de las ciudades de <strong>Tangananica</strong> y <strong>Tangananá</strong>. Se examinarán datos reales de <strong>Y.Music</strong> para comprobar las hipótesis que se exponen a continuación y comparar el uso de los usuarios de estas dos ciudades.</p>
+<p>Cada vez que realizamos un análisis, es fundamental formular hipótesis que podamos luego validar o refutar. A veces, las aceptamos; en otras ocasiones, las rechazamos. Para tomar decisiones acertadas, una empresa debe comprender si sus suposiciones son correctas.</p>
+<p>En este proyecto, se compararán las preferencias musicales de las ciudades de <strong>Tangananica</strong> y <strong>Tangananá</strong>. Analizaremos los datos para poner a prueba las hipótesis planteadas y comparar el comportamiento de los usuarios en ambas ciudades.</p>
 <h3 id="descripcion-de-los-datos">Descripci&#243;n de los datos<a class="anchor-link" href="#descripcion-de-los-datos">&#182;</a></h3><p>Los datos se almacenan en el archivo <code>music_project.xlsx</code>, separado en las pestañas <code>Monday</code>, <code>Wednesday</code> y <code>Friday</code>.</p>
 <p>Cada pestaña, contiene las siguiente información:</p>
 <table>
@@ -1788,7 +1777,7 @@ Licensed under the Apache License, Version 2.0.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
@@ -1838,7 +1827,7 @@ import pandas as pd</div>
             </clipboard-copy>
         </div>
             <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Especificar la ruta del archivo Excel</span>
-<span class="n">excel_file</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/fralfaro/techschool/main/docs/TallerPandas/data/music_project_cl.xlsx&#39;</span>
+<span class="n">excel_file</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/fralfaro/MADS-Workshops/main/docs/TallerPandas/data/music_project_cl.xlsx&#39;</span>
 
 <span class="c1"># Lee los nombres de las hojas</span>
 <span class="n">nombres_hojas</span> <span class="o">=</span> <span class="c1">#FIXME</span>
@@ -1847,7 +1836,7 @@ import pandas as pd</div>
 <span class="n">nombres_hojas</span>
 </pre></div>
 <div id="cell-2" class="clipboard-copy-txt"># Especificar la ruta del archivo Excel
-excel_file = 'https://raw.githubusercontent.com/fralfaro/techschool/main/docs/TallerPandas/data/music_project_cl.xlsx'
+excel_file = 'https://raw.githubusercontent.com/fralfaro/MADS-Workshops/main/docs/TallerPandas/data/music_project_cl.xlsx'
 
 # Lee los nombres de las hojas
 nombres_hojas = #FIXME
@@ -2567,7 +2556,7 @@ df = #FIXME (aplicar la funcion 'replace_wrong_genres' a 'df')</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="testing-hypotheses">Testing hypotheses<a class="anchor-link" href="#testing-hypotheses">&#182;</a></h4><p><strong>Hipótesis 1: comparar el comportamiento de los usuarios en dos ciudades</strong></p>
+<h4 id="hipotesis">Hip&#243;tesis<a class="anchor-link" href="#hipotesis">&#182;</a></h4><p><strong>Hipótesis 1: comparar el comportamiento de los usuarios en dos ciudades</strong></p>
 <p>Según la primera hipótesis, los usuarios de Tangananica y Tangananá escuchan música de manera diferente. Pruebe esto usando los datos de tres días de la semana: lunes, miércoles y viernes.</p>
 <ul>
 <li>Divide a los usuarios en grupos por ciudad.</li>
